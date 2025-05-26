@@ -1,4 +1,4 @@
-var robot = document.getElementById('robot')
+var robot = document.querySelector('.robot-head')
 
 var step = 10
 var x = 100
@@ -26,34 +26,34 @@ document.addEventListener('keydown', function (event) {
     robot.style.top = y + 'px'
 })
 
-var arrowLeftButton = document.getElementById('arrow-left')
+var robotButtonLeft = document.querySelector('.robot-button-left')
 
-arrowLeftButton.addEventListener('click', function (event) {
+robotButtonLeft.addEventListener('click', function (event) {
     x = x - step
 
     robot.style.left = x + 'px'
 })
 
-var arrowRightButton = document.getElementById('arrow-right')
+var robotButtonRight = document.querySelector('.robot-button-right')
 
-arrowRightButton.addEventListener('click', function (event) {
+robotButtonRight.addEventListener('click', function (event) {
     x = x + step
 
     robot.style.left = x + 'px'
 })
 
-var arrowUpButton = document.getElementById('arrow-up')
+var robotButtonUp = document.querySelector('.robot-button-up')
 
-arrowUpButton.addEventListener('click', function (event) {
+robotButtonUp.addEventListener('click', function (event) {
     y = y - step
 
     robot.style.top = y + 'px'
 })
 
 
-var arrowDownButton = document.getElementById('arrow-down')
+var robotButtonDown = document.querySelector('.robot-button-down')
 
-arrowDownButton.addEventListener('click', function (event) {
+robotButtonDown.addEventListener('click', function (event) {
     y = y + step
 
     robot.style.top = y + 'px'

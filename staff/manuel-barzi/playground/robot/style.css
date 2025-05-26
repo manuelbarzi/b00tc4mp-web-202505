@@ -3,14 +3,14 @@ h1 {
     background-color: yellow;
 }
 
-#robot {
+.robot-head {
     background-color: red;
     height: 100px;
     width: 100px;
     position: absolute;
 }
 
-#eye-1 {
+.robot-eye-1 {
     background-color: white;
     height: 20px;
     width: 20px;
@@ -19,7 +19,7 @@ h1 {
     top: 20px;
 }
 
-#eye-2 {
+.robot-eye-2 {
     background-color: white;
     height: 20px;
     width: 20px;
@@ -28,7 +28,7 @@ h1 {
     top: 20px;
 }
 
-#mouth {
+.robot-mouth {
     background-color: white;
     height: 20px;
     width: 60px;
