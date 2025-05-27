@@ -1,0 +1,180 @@
+.pikachu {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+
+    .head {
+        background-color: gold;
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        position: absolute;
+
+        .eye-left {
+            background-color: black;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            position: absolute;
+            left: 10px;
+            top: 25px;
+        }
+
+        .eye-right {
+            background-color: black;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            position: absolute;
+            left: 60px;
+            top: 25px;
+        }
+
+        .nose {
+            background-color: black;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            position: absolute;
+            left: 46px;
+            top: 55px;
+        }
+
+        .mouth {
+            background-color: darksalmon;
+            width: 30px;
+            height: 20px;
+            border-radius: 0 0 50% 50%;
+            position: absolute;
+            left: 35px;
+            top: 70px;
+        }
+
+        .cheek-left {
+            background-color: tomato;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            position: absolute;
+            left: 0px;
+            top: 60px;
+        }
+
+        .cheek-right {
+            background-color: tomato;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            position: absolute;
+            left: 70px;
+            top: 60px;
+        }
+
+        .left-ear {
+            background-color: gold;
+            width: 30px;
+            height: 100px;
+            border-radius: 50%;
+            position: absolute;
+            left: -30px;
+            top: -60px;
+            transform: rotate(-45deg);
+            overflow: hidden;
+
+            .band {
+                background-color: black;
+                width: 30px;
+                height: 30px;
+                position: absolute;
+                left: 0px;
+                top: 0px;
+            }
+        }
+
+        .right-ear {
+            background-color: gold;
+            width: 30px;
+            height: 100px;
+            border-radius: 50%;
+            position: absolute;
+            left: 100px;
+            top: -60px;
+            transform: rotate(45deg);
+            overflow: hidden;
+
+            .band {
+                background-color: black;
+                width: 30px;
+                height: 30px;
+                position: absolute;
+                left: 0px;
+                top: 0px;
+            }
+        }
+    }
+
+    .body {
+        background-color: gold;
+        width: 60px;
+        height: 70px;
+        position: absolute;
+        top: 100px;
+        left: 20px;
+        border-radius: 10px;
+
+        .left-foot {
+            background-color: gold;
+            width: 35px;
+            height: 15px;
+            position: absolute;
+            top: 70px;
+            left: -10px;
+            border-radius: 10px;
+        }
+
+        .right-foot {
+            background-color: gold;
+            width: 35px;
+            height: 15px;
+            position: absolute;
+            top: 70px;
+            left: 35px;
+            border-radius: 10px;
+        }
+
+        .left-arm {
+            background-color: gold;
+            border: 1px solid darkgoldenrod;
+            width: 15px;
+            height: 35px;
+            transform: rotate(-30deg);
+            position: absolute;
+            top: 0px;
+            left: 5px;
+            border-radius: 10px;
+        }
+
+        .right-arm {
+            background-color: gold;
+            border: 1px solid darkgoldenrod;
+            width: 15px;
+            height: 35px;
+            transform: rotate(30deg);
+            position: absolute;
+            top: 0px;
+            left: 40px;
+            border-radius: 10px;
+        }
+
+        .tail {
+            background-color: gold;
+            width: 15px;
+            height: 35px;
+            transform: rotate(45deg);
+            position: absolute;
+            top: 20px;
+            left: 60px;
+            border-radius: 10px;
+        }
+    }
+}
